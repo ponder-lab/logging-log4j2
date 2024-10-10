@@ -35,8 +35,7 @@ jobs:
       DV_ACCESS_TOKEN: ${{ startsWith(github.ref_name, 'release/') && '' || secrets.GE_ACCESS_TOKEN }}
     with:
       java-version: |
-        8
-        17
+        21
       site-enabled: true
       reproducibility-check-enabled: ${{ startsWith(github.ref_name, 'release/') }}
       develocity-enabled: ${{ ! startsWith(github.ref_name, 'release/') }}
