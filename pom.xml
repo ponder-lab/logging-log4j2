@@ -555,9 +555,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.graalvm.js</groupId>
-      <artifactId>js</artifactId>
-      <version>23.0.0</version>
+      <groupId>org.openjdk.nashorn</groupId>
+      <artifactId>nashorn-core</artifactId>
+      <version>15.4</version>
     </dependency>
   </dependencies>
 
