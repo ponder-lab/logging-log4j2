@@ -305,6 +305,7 @@
 
   <properties>
 
+    <minimalJavaBuildVersion>[21,22)</minimalJavaBuildVersion>
     <!-- project version -->
     <revision>2.25.0-SNAPSHOT</revision>
     <!-- Versions used on the site: no snapshots! -->
