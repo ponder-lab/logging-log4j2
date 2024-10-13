@@ -629,7 +629,8 @@
           <runOrder>random</runOrder>
           <argLine>--add-opens java.base/java.lang=ALL-UNNAMED
             --add-opens java.base/java.util=ALL-UNNAMED
-            --add-opens java.base/java.net=ALL-UNNAMED</argLine>
+            --add-opens java.base/java.net=ALL-UNNAMED
+            --add-opens java.base/java.io=ALL-UNNAMED</argLine>
           <systemPropertyVariables>
             <java.awt.headless>true</java.awt.headless>
           </systemPropertyVariables>
