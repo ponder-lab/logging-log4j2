@@ -660,7 +660,8 @@
           <argLine>--add-opens java.base/java.lang=ALL-UNNAMED
             --add-opens java.base/java.util=ALL-UNNAMED
             --add-opens java.base/java.net=ALL-UNNAMED
-            --add-opens java.base/java.io=ALL-UNNAMED</argLine>
+            --add-opens java.base/java.io=ALL-UNNAMED
+            --add-opens java.base/sun.reflect=ALL-UNNAMED</argLine>
           <systemPropertyVariables>
             <java.awt.headless>true</java.awt.headless>
             <pax.exam.waitTimeout>600000</pax.exam.waitTimeout>
