@@ -663,6 +663,7 @@
             --add-opens java.base/java.io=ALL-UNNAMED</argLine>
           <systemPropertyVariables>
             <java.awt.headless>true</java.awt.headless>
+            <pax.exam.waitTimeout>600000</pax.exam.waitTimeout>
           </systemPropertyVariables>
         </configuration>
       </plugin>
